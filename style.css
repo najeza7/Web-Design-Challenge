@@ -1,0 +1,39 @@
+a.navbar-brand {
+    background-color: rgb(69, 197, 165);
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+} 
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+.card {
+    width: 40rem;
+    margin: 2rem;
+}
+
+.container{
+    background-color: white;
+}
+.image-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+img {
+    width: 100%;
+}
+
+.col-md-12 {
+    background-color: white;
+}
+
+.col-md-4 {
+    background-color: white;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    
+}

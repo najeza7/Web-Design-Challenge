@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Humidity</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand mb-0 h1 text-white" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="temperature.html">Temperature</a></li>
+              <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Data</a>
+          </li>
+        </ul>
+      </div> 
+    </div>
+  </nav>
+
+
+  <div class = "container">
+    <section class = "row">
+      <div class="col-lg-8 col-md-12">
+        <div class = "intro"> 
+          <h1 style="color:rgb(69, 197, 165)">Humidity</h1>
+          <img src="Resources/assets/Fig2.png" alt="Latitude">
+          <p> According to this graph we can observe that there is not
+              a clear relationship between the latitude of a country and its humidity 
+              percentage. 
+          </p>
+          
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <section>
+          <h1 style="color:rgb(69, 197, 165)">Visualizations</h1>
+          <div class="container">
+            <div class="card">
+              <div class="image-grid-container">
+                <a href="temperature.html"><img src="Resources/assets/Fig1.png" alt="Temperature"></a>
+                <a href="humidity.html"><img src="Resources/assets/Fig2.png" alt="Humidity"></a>
+                <a href="cloudiness.html"><img src="Resources/assets/Fig3.png" alt="Cloudiness"></a>
+                <a href="windspeed.html"><img src="Resources/assets/Fig4.png" alt="Wind Speed"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
